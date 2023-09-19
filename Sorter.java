@@ -12,7 +12,7 @@ public class Sorter {
                 j = j - 1;
             }
             arr[j+1] = key;}
-            
+
         }
     public static void selectionSort(int[] arr){
         int min = 0; // index of the minimum.
@@ -29,4 +29,7 @@ public class Sorter {
         }
         
     }
+     public static void sort(int[] arr){
+        insertionSort(arr);
+     }
 }
